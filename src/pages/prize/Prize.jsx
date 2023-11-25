@@ -4,13 +4,12 @@ import './prize.scss'
 const Prize = () => {
   return (
     <article className='prize__article'>
-    <h2 className='prize__title'>RIFA DE UNA APLICACIÓN WEB</h2>
-    <p className='prize__p'>Con diseño adaptado a dispositivos móviles y de escritorio, personalizado para una pequeña empresa o emprendimiento</p>
+    <h2 className='prize__title'>RIFA DE 100$</h2>    
     {/* <p>Descripción y Características del Sorteo</p> */}
     <div>
       <ul>
         <li>Total de tickets: 1000</li>
-        <li>Valor de cada ticket: Venezuela: 100Bs  |  Colombia: $12.000   </li>
+        <li>Valor de cada ticket: Venezuela: 100Bs  |  DOLAR: $3USD   </li>
         <li>Fecha del sorteo: 31/08/2023</li>
         <li>Hora del sorteo: 10:15 PM</li>
         <li>Lotería: <a style={{color:'#FFBF00'}} href="https://resultadodelaloteria.com/colombia/dorado-noche" target="_blank" rel="noopener noreferrer">Dorado Noche</a></li>

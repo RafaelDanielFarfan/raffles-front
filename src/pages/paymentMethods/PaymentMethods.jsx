@@ -3,7 +3,7 @@ import './paymentMethods.scss'
 const PaymentMethods = () => {
     return (
         <main className='payment__main'>
-            <h2 className='payment__h2'>METODOS DE PAGO</h2>
+            <h2 className='payment__h2'>MÉTODOS DE PAGO</h2>
 
             <article className='payment__article'>
                 <div className='payment__bank'>
