@@ -1,0 +1,90 @@
+$black: #FFBF00;
+$white: #540375;
+$pearl: #fff;
+$purple: #540375;
+$blue: #540375;
+// $green: #00BCD4;
+$green: #540375;
+$pink: #b73b3b;
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    // cursor: none;
+}
+
+html,
+body {
+    background: $white;
+   // color: $white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: $white;
+    color: $black;
+    // mix-blend-mode: difference;
+}
+
+::-moz-selection {
+    background: $white;
+    color: $black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.ant-upload-wrapper .css-dev-only-do-not-override-fpg3f5:where(.css-dev-only-do-not-override-fpg3f5).ant-upload-wrapper {
+    width: 100%;
+}
+
+:where(.css-dev-only-do-not-override-fpg3f5).ant-upload-wrapper {
+    width: 100%;
+}
+
+
+/* Cambiar el color del fondo de la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del fondo del pulgar (scrollbar thumb) */
+    border-radius: 8px; /* Borde redondeado del pulgar */
+  }
+  
+  /* Cambiar el color del fondo del pulgar cuando se desplace */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color del fondo del pulgar al pasar el mouse */
+  }
+  
+  /* Cambiar el color de fondo de la pista (scrollbar track) */
+  ::-webkit-scrollbar-track {
+    background-color: #f2f2f2; /* Color de fondo de la pista */
+    border-radius: 8px; /* Borde redondeado de la pista */
+  }
+  
+  /* Cambiar el color del fondo de la pista cuando se desplace */
+  ::-webkit-scrollbar-track:hover {
+    background-color: #e0e0e0; /* Color de fondo de la pista al pasar el mouse */
+  }
+  
+  /* Cambiar el color de la esquina inferior derecha de la pista */
+  ::-webkit-scrollbar-corner {
+    background-color: #f2f2f2; /* Color de la esquina inferior derecha */
+  }
+  

@@ -1,0 +1,121 @@
+// p {
+//     color:black
+// }
+
+.ticket {
+    &__main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        align-items: center;
+        height: 60vh;
+        padding: 2rem;
+        justify-content: center;
+        overflow-y: auto;
+        margin: 2rem
+        
+    }
+    &__div {
+        background-color: antiquewhite;
+        color: #540375;
+        width: 100px;
+        height: 100px;
+        font-size: 1.5rem;
+        border-radius: 50%;
+        padding: .5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__p {
+        font-size: .8rem;
+    }
+    &__available {
+        background-color: #FFBF00;
+        cursor: pointer;
+        &:hover {
+        transform: scale(1.1);
+        }
+    }
+    &__reserved {
+        background-color: #FF7000;
+        color: gray;
+        &:hover {
+            transform: scale(1.1);
+            }
+        cursor: pointer;
+    }
+    &__purchased {
+        background-color: #00BCD4;
+        cursor: pointer;
+        color: gray;
+        &:hover {
+            transform: scale(1.1);
+            }
+    }
+}
+
+.css-105qr5e {
+    //width: 600px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form {
+    &__buyTicket {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-top: 2rem;
+    justify-content: center;
+    }
+    &__subtitle {
+        margin-top: 1rem;
+    }
+    &__btn {
+        background-color: #FFBF00 !important;
+        width: 100% !important;
+        height: 30px;
+        color: #fff !important;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+    }
+    // &__uploadImage {
+    //     border: 1px solid red;
+    // }
+}
+.ant-upload-select {
+    border: 1px dashed gray !important;
+    padding: .5rem 3rem;
+
+}
+
+@media screen and (max-width: 575px) {
+    .ticket {
+        &__main {
+            padding: .2rem;
+            margin-top: 1rem;
+            gap: .5rem;
+            margin: 1rem;
+        }
+        &__div {
+            width: 60px;
+            height: 60px;
+        }
+        &__id {
+            font-size: 1rem;
+        }
+        &__p {
+            font-size: .5rem;
+        }
+    }
+    
+}
+// #parent-modal-title {
+//     font-size: 1rem;
+// }

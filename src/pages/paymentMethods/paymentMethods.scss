@@ -1,0 +1,50 @@
+.payment {
+    &__main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        //width: 100vh;
+        flex-direction: column;
+    }
+
+    &__article {
+        //  background-color: aliceblue;
+        padding: 1rem;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: row;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    &__h2 {
+        color:#FFBF00;
+    }
+
+    &__bank {
+        background-color: #FFBF00;
+        width: 300px;
+        height: 200px;
+        padding: 1rem;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        color: #540375;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .payment {
+        &__article {
+            flex-direction: column;
+        }
+        &__bank {
+            height: 150px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.prize {
+    &__article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        color: #FFBF00;
+        padding: 2rem;
+    }
+    &__title {
+        text-align: center;
+   
+    }
+    &__p {
+        color: #FFBF00;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}
